@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Имя Фамилия - Персональный сайт</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">Имя Фамилия</div>
+                <ul class="nav-links">
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#skills">Навыки</a></li>
+                    <li><a href="#projects">Проекты</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Привет, я <span class="highlight">Имя Фамилия</span></h1>
+                <p>Веб-разработчик / Дизайнер / Специалист</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">Мои проекты</a>
+                    <a href="#contact" class="btn secondary">Связаться</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="avatar"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Обо мне</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Я passionate разработчик с опытом в создании современных веб-приложений. Люблю решать сложные задачи и создавать продукты, которые улучшают жизнь пользователей.</p>
+                    <p>В свободное время изучаю новые технологии, участвую в open-source проектах и пишу технические статьи.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>2+</h3>
+                        <p>Года опыта</p>
+                    </div>
+                    <div class="stat">
+                        <h3>50+</h3>
+                        <p>Завершенных проектов</p>
+                    </div>
+                    <div class="stat">
+                        <h3>10+</h3>
+                        <p>Довольных клиентов</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Навыки</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Vue.js</span>
+                        <span class="skill-tag">TypeScript</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Инструменты</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Webpack</span>
+                        <span class="skill-tag">AWS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Мои проекты</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <div class="project-content">
+                        <h3>Веб-приложение</h3>
+                        <p>Описание проекта и его функциональности.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Демо</a>
+                            <a href="#" class="project-link">Код</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <div class="project-content">
+                        <h3>Мобильное приложение</h3>
+                        <p>Кроссплатформенное приложение для iOS и Android.</p>
+                        <div class="project-tech">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                            <span>Redux</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Демо</a>
+                            <a href="#" class="project-link">Код</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <div class="project-content">
+                        <h3>Дизайн система</h3>
+                        <p>Компонентная библиотека для крупного проекта.</p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>Storybook</span>
+                            <span>Sass</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Демо</a>
+                            <a href="#" class="project-link">Код</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Свяжитесь со мной</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Давайте работать вместе!</h3>
+                    <p>Готов обсудить новые проекты и возможности.</p>
+                    <div class="contact-links">
+                        <a href="mailto:your.email@example.com" class="contact-link">
+                            📧 your.email@example.com
+                        </a>
+                        <a href="tel:+79991234567" class="contact-link">
+                            📞 +7 (999) 123-45-67
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">GitHub</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Telegram</a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Ваше имя" required>
+                    <input type="email" placeholder="Ваш email" required>
+                    <textarea placeholder="Ваше сообщение" rows="5" required></textarea>
+                    <button type="submit" class="btn primary">Отправить сообщение</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Имя Фамилия. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
